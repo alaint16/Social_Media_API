@@ -1,0 +1,18 @@
+body {
+background-image: url("images/people-apple-iphone-writing.jpg");
+background-size: cover;
+height: 900px;
+}
+
+
+.container {
+margin: 0 auto;
+width: 950px;
+border: solid medium #fff600;
+
+}
+
+.letter_a_img{
+z-index: 10;
+
+}

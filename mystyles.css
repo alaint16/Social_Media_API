@@ -13,6 +13,115 @@ border: solid medium #fff600;
 }
 
 .letter_a_img{
+
+    width: 214px;
+    height: 314px;
+}
+
+h1 {
+
+	font-family: 'romance_fatal_serif_stdRg';
+	color: #fff600;
+	font-size: 100px;
+	text-align: center;
+}
+h3 {
+
+	font-family: arial;
+	color: #ffffff;
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+.h_3 {
+
+	font-family: arial;
+	color: #000000;
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+.left_colum {
+	 width: 215px;
+    height: 314px;
 z-index: 10;
+    margin-top: 100px;
+    margin-left: -50px;
+}
+
+.right_colum {
+	width: 700px;
+    float: right;
+padding-top: 30px;
+         padding-bottom: 30px;
+
+}
+
+.guardian {
+	background-color: rgba(255,255,255, 0.5);
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.guardian a {
+font-size: 18 px;
+font-family: arial;
+color: #000000;
+line-height: 30px;
+
+}
+
+
+@media (min-width: 0) and (max-width: 450px) {
+   
+.right_colum {
+   width: 400px;
+    float: right;
+ padding-top: 30px;
+         padding-bottom: 30px;
+}
+
+.left_colum {
+	 width: 90px;
+    height: 314px;
+    z-index: 10;
+        margin-top: 100px;
+    margin-left: -50px;
+}
+
+h1 {
+	font-family: 'romance_fatal_serif_stdRg';
+	color: #fff600;
+	font-size: 40px;
+	text-align: center;
+}   
+
+
+
+}
+
+
+@media (min-width: 451) and (max-width: 700px) {
+   
+.right_colum {
+   width: 500px;
+    float: right;
+         padding-top: 30px;
+         padding-bottom: 30px;
+}
+
+.left_colum {
+	 width: 130px;
+    height: 314px;
+    margin-top: 100px;
+    margin-left: -50px;
+}
+
+h1 {
+	font-family: 'romance_fatal_serif_stdRg';
+	color: #fff600;
+	font-size: 60px;
+	text-align: center;
+}   
 
 }
